@@ -2,8 +2,6 @@ name: health auto
 
 on:
   push:
-    branches:
-    - master
   schedule:
     - cron:  '0 22 * * *'
     #定时每天六点打卡(UTC+8)(分钟 小时)
